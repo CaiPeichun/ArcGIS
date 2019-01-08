@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.app.app</groupId>
+  <artifactId>com.app.app</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+   <repositories>
+    <repository>
+      <id>arcgis</id>
+      <url>https://esri.bintray.com/arcgis</url>
+    </repository>
+  </repositories>
+   <pluginRepositories>
+    <pluginRepository>
+      <id>arcgis-plugin</id>
+      <url>https://esri.bintray.com/arcgis</url>
+    </pluginRepository>
+  </pluginRepositories>
+   <dependencies>
+    <dependency>
+      <groupId>com.esri.arcgisruntime</groupId>
+      <artifactId>arcgis-java</artifactId>
+      <version>100.4.0</version>
+    </dependency>
+  </dependencies>
+   <build>
+      <plugins>
+        <!--ArcGIS Java Maven Plugin-->
+        <plugin>
+          <groupId>com.esri.arcgisruntime</groupId>
+          <artifactId>arcgis-java-maven-plugin</artifactId>
+          <version>1.0</version>
+          <configuration>
+            <version>100.4.0</version>
+          </configuration>
+        </plugin>
+      </plugins>
+  </build>
+
+</project>
