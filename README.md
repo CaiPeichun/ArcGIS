@@ -5,11 +5,10 @@
 [查看代码](https://github.com/CaiPeichun/ArcGIS/blob/master/src/main/java/com/app/app/Geometry1.java)
 ![Image text](https://raw.githubusercontent.com/CaiPeichun/ArcGIS/master/Geomentory%E5%90%88%E5%B9%B6.png)
 
-</br>
 ### 2.查询要素</br>
 [查看代码](https://github.com/CaiPeichun/ArcGIS/blob/master/src/main/java/samples/featurelayers/feature_layer_query/FeatureLayerQuerySample.java)
 ![Image text](https://raw.githubusercontent.com/CaiPeichun/ArcGIS/master/%E6%9F%A5%E8%AF%A2%E8%A6%81%E7%B4%A0.png)
-</br>
+
 ### 3.添加要素</br>
 [查看代码](https://github.com/CaiPeichun/ArcGIS/blob/master/src/main/java/samples/featurelayers/feature_layer_query/AddFeaturesSample.java)
 ![Image text](https://raw.githubusercontent.com/CaiPeichun/ArcGIS/master/%E6%B7%BB%E5%8A%A0%E8%A6%81%E7%B4%A0.png)
